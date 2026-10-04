@@ -16,8 +16,7 @@ Domain: smart greenhouse (continuation of Assignment #2). Two dimensions vary in
 | Client | `Main` | Composes plants with systems and switches the system at runtime |
 
 The two hierarchies are connected by **composition** (`Plant` has a `GrowingSystem` field), not inheritance.
-Any plant works with any system, so 2 plants × 2 systems need only 4 classes instead of 4 combination classes.
-
+Any plant works with any system, so adding a new plant or a new system adds only one class (n + m classes instead of n × m).
 ## Runtime switching
 
 ```java
